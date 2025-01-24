@@ -4,12 +4,12 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'replicate.delivery', // Allow Replicate's image domain
+        hostname: 'replicate.delivery',
         pathname: '/**',
       },
       {
         protocol: 'https',
-        hostname: 'pbxt.replicate.delivery', // Also allow this domain
+        hostname: 'pbxt.replicate.delivery',
         pathname: '/**',
       }
     ],
